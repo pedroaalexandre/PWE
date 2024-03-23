@@ -7,7 +7,7 @@
 <body>
     <form>
         <label for="txtNext">Nome:</label>
-        <input id="txtNext" type="text" placeholder="Insira o nome completo">
+        <input id="txtNext" type="text" placeholder="Insira o nome completo" required>
         
         <br><br>
         <label for="txtSenha">Senha:</label>
@@ -25,11 +25,11 @@
         <fieldset>
             <legend>Contatos</legend>
             <label for="txtEmail">Email:</label>
-            <input id="txtEmail" type="email" placeholder="exemplo@exemplo.com">
+            <input id="txtEmail" type="email" placeholder="exemplo@exemplo.com" required>
 
             <br><br>
             <label for="txtSite">Site:</label>
-            <input id="txtSite" type="url" placeholder="http://www.exemplo.com">
+            <input id="txtSite" type="url" placeholder="http://www.exemplo.com" required>
         </fieldset>
 
         <br><br>
@@ -61,6 +61,10 @@
         <input type="checkbox" id="python">
         <label for="python">Python</label>
         <br><br>
+
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Limpar">
+        <input type="button" value="Botão">
     </form>
 </body>
 </html>
