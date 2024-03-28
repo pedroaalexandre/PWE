@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>HTML | Formulários</title>
+</head>
+<body>
+    <form>
+        <fieldset>
+            <legend>Dados pessoais</legend>
+            <label for="txtNome">Nome:</label>
+            <input id="txtNome" type="text" placeholder="Nome completo" required>
+            <br><br>
+            <label for="txtData">Data de nascimento:</label>
+            <input id="txtData" type="date" required>
+            <br><br>
+            <label>Sexo:</label>
+            <input id="masc" type="radio" name="sexo" required><label for="masc">Masculino</label>
+            <input id="fem" type="radio" name="sexo" required><label for="fem">Feminino</label>
+        </fieldset>
+        <br><br>
+        <fieldset>
+            <legend>Informações de contato</legend>
+            <label for="txtEmail">Email:</label>
+            <input id="txtEmail" type="email" placeholder="exemplo@exemplo.com" required>
+            <br><br>
+            <label for="txtTel">Telefone Celular:</label>
+            <input id="txtTel" type="tel" maxlength="9" placeholder="xxxxxxxxxx" required>
+            <br><br>
+            <label for="txtSite">Website:</label>
+            <input id="txtSite" type="url" placeholder="http://exemplo.com" required>
+        </fieldset>
+        <br><br>
+        <fieldset>
+            <legend>Localização</legend>
+            <label for="txtEndereco">Endereço:</label>
+            <input id="txtEndereco" type="text" placeholder="Rua, Logradouro, Avenida..." required>
+            <br><br>
+            <label for="txtNumero">Número:</label>
+            <input id="txtNumero" type="number" placeholder="Nº" min="1" max="9999" required>
+            <br><br>
+            <label for="txtCidade">Cidade:</label>
+            <input id="txtCidade" type="text" placeholder="Digite sua Cidade" required>
+            <br><br>
+            <label for="txtEstado">Estado:</label>
+            <select id="txtEstado" size="1">
+                <option>Acre</option>
+                <option>Alagoas</option>
+                <option>Amapá</option>
+                <option>Amazonas</option>
+                <option>Bahia</option>
+                <option>Ceará</option>
+                <option>Distrito Federal</option>
+                <option>Espírito Santo</option>
+                <option>Goiás</option>
+                <option>Maranhão</option>
+                <option>Mato Grosso</option>
+                <option>Mato Grosso do Sul</option>
+                <option>Minas Gerais</option>
+                <option>Pará</option>
+                <option>Paraíba</option>
+                <option>Paraná</option>
+                <option>Pernambuco</option>
+                <option>Piauí</option>
+                <option>Rio de Janeiro</option>
+                <option>Rio Grande do Norte</option>
+                <option>Rio Grande do Sul</option>
+                <option>Rondônia</option>
+                <option>Roraima</option>
+                <option>Santa Catarina</option>
+                <option>São Paulo</option>
+                <option>Sergipe</option>
+                <option>Tocantins</option>
+            </select>
+        </fieldset>
+        <br>
+        <input type="submit" value="Cadastrar">
+        <input type="reset" value="Limpar">
+    </form>
+    
+</body>
+</html>
