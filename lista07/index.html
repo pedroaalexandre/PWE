@@ -12,12 +12,15 @@
         <fieldset>
             <legend>Dados pessoais</legend>
             <label for="txtNome">Nome:</label>
-            <input id="txtNome" type="text" required>
+            <br>
+            <input id="txtNome" type="text" placeholder="Nome completo" required>
             <br><br>
             <label for="txtData">Data de nascimento:</label>
+            <br>
             <input id="txtData" type="date" required>
             <br><br>
             <label>Sexo:</label>
+            <br>
             <input id="masc" type="radio" name="sexo" required><label for="masc">Masculino</label>
             <input id="fem" type="radio" name="sexo" required><label for="fem">Feminino</label>
         </fieldset>
@@ -25,28 +28,36 @@
         <fieldset>
             <legend>Informações de contato</legend>
             <label for="txtEmail">Email:</label>
+            <br>
             <input id="txtEmail" type="email" required>
             <br><br>
             <label for="txtTel">Telefone Celular:</label>
-            <input id="txtTel" type="tel" maxlength="9" required>
+            <br>
+            <input id="txtTel" type="tel" maxlength="9" placeholder="Apenas números (máx.9)" required>
             <br><br>
             <label for="txtSite">Website:</label>
+            <br>
             <input id="txtSite" type="url" required>
         </fieldset>
         <br><br>
         <fieldset>
             <legend>Localização</legend>
             <label for="txtEndereco">Endereço:</label>
+            <br>
             <input id="txtEndereco" type="text" required>
             <br><br>
             <label for="txtNumero">Número:</label>
-            <input id="txtNumero" type="number" min="1" max="9999" required>
+            <br>
+            <input id="txtNumero" type="number" min="1" max="9999" placeholder="(Valor entre 1 e 9999)"  required>
             <br><br>
             <label for="txtCidade">Cidade:</label>
+            <br>
             <input id="txtCidade" type="text" required>
             <br><br>
             <label for="txtEstado">Estado:</label>
+            <br>
             <select id="txtEstado" size="1">
+                <option value="">Selecione</option>
                 <option>Acre</option>
                 <option>Alagoas</option>
                 <option>Amapá</option>
