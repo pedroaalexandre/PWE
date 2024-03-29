@@ -5,11 +5,13 @@
     <title>HTML | Formulários</title>
 </head>
 <body>
+    <h1>Cadastro de Clientes</h1>
+    <p style="color: red;">Todos os campos são de preenchimento obrigatório</p>
     <form>
         <fieldset>
             <legend>Dados pessoais</legend>
             <label for="txtNome">Nome:</label>
-            <input id="txtNome" type="text" placeholder="Nome completo" required>
+            <input id="txtNome" type="text" required>
             <br><br>
             <label for="txtData">Data de nascimento:</label>
             <input id="txtData" type="date" required>
@@ -22,25 +24,25 @@
         <fieldset>
             <legend>Informações de contato</legend>
             <label for="txtEmail">Email:</label>
-            <input id="txtEmail" type="email" placeholder="exemplo@exemplo.com" required>
+            <input id="txtEmail" type="email" required>
             <br><br>
             <label for="txtTel">Telefone Celular:</label>
-            <input id="txtTel" type="tel" maxlength="9" placeholder="xxxxxxxxxx" required>
+            <input id="txtTel" type="tel" maxlength="9" required>
             <br><br>
             <label for="txtSite">Website:</label>
-            <input id="txtSite" type="url" placeholder="http://exemplo.com" required>
+            <input id="txtSite" type="url" required>
         </fieldset>
         <br><br>
         <fieldset>
             <legend>Localização</legend>
             <label for="txtEndereco">Endereço:</label>
-            <input id="txtEndereco" type="text" placeholder="Rua, Logradouro, Avenida..." required>
+            <input id="txtEndereco" type="text" required>
             <br><br>
             <label for="txtNumero">Número:</label>
-            <input id="txtNumero" type="number" placeholder="Nº" min="1" max="9999" required>
+            <input id="txtNumero" type="number" min="1" max="9999" required>
             <br><br>
             <label for="txtCidade">Cidade:</label>
-            <input id="txtCidade" type="text" placeholder="Digite sua Cidade" required>
+            <input id="txtCidade" type="text" required>
             <br><br>
             <label for="txtEstado">Estado:</label>
             <select id="txtEstado" size="1">
