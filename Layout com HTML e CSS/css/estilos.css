@@ -1,0 +1,102 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+header h1 {
+    direction: rtl;
+    color: white;
+    background-color: black;
+    padding: 10px;
+    font-family: sans-serif;
+}
+header h2 {
+    direction: rtl;
+    color: white;
+    background-color: gray;
+    font-size: 15px;
+    padding: 8px;
+    font-family: sans-serif;
+}
+header nav ul{
+    text-align: center;
+    background-color: rgb(83, 83, 243);
+    padding: 6px;
+}
+header nav ul li{
+    display: inline-block;
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-family: sans-serif;
+    font-size: 13px;
+}
+.menuDeNavegação:link, .menuDeNavegação:visited{
+    text-decoration: none;
+    color: white;
+}
+.menuDeNavegação:hover{
+    text-decoration: underline;
+}
+main{
+    background-color: black;
+}
+main div{
+    background-color: white;
+    width: 1200px;
+    margin: 0px auto;
+    padding: 20px;
+}
+main p{
+    margin: 1em 0px;
+    font-family: sans-serif;
+    font-size: 13px;
+}
+main ul{
+    padding: 20px 20px 4px 40px;
+    font-family: sans-serif;
+    font-size: 12px;
+}
+.listaInicioMain:link, .listaInicioMain:visited{
+    text-decoration: 1.5px underline;
+    color: blue;
+    font-weight: bold;
+    font-size: 13px;
+}
+main h2{
+    font-family: sans-serif;
+}
+main h2:hover{
+    letter-spacing: 5px;
+    transition: letter-spacing 0.5s ease-in-out;
+}
+main h2:not(:hover){
+    transition: letter-spacing 0.5s ease-in-out;
+}
+main h3{
+    font-family: sans-serif;
+}
+.voltarAoTopo:link, .voltarAoTopo:visited{
+    color: blue;
+}
+.imagemMain{
+    height: 300px;
+    width: 1156px;
+    display: inline-block;
+    background-image: url(../imagens/logo.png);
+    background-size: 400px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+footer{
+    padding: 30px;
+    background-color: gray;
+}
+footer p{
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 11px;
+    color: white;
+}
+footer a:link, a:visited{
+    color: lightblue;
+}
