@@ -380,7 +380,7 @@ footer > .container > div:hover {
     margin: 5px 90px
 }
 
-.introducaoLoja > nav > ul > li > a:link, a:visited{
+.introducaoLoja > nav > ul > li > a:link, a:visited {
     padding: 6px;
     padding-left: 50px;
     color: #A9A9A9;
@@ -393,12 +393,15 @@ footer > .container > div:hover {
     transition: all 0.5s;
 }
 
+.introducaoLoja > nav > ul > li > a:hover {
+    color: white;
+}
+
 .consoleLoja {
     background-image: url(../img/computer_loja.png);
 }
 
 .consoleLoja:hover {
-    color: white;
     background-image: url(../img/computer_loja_branco.png);
     background-color: #0070CC;
 }
@@ -408,7 +411,6 @@ footer > .container > div:hover {
 }
 
 .jogoLoja:hover {
-    color: white;
     background-image: url(../img/joystick_branco.png);
     background-color: #B856D2;
 }
@@ -418,7 +420,6 @@ footer > .container > div:hover {
 }
 
 .acessorioLoja:hover {
-    color: white;
     background-image: url(../img/acessorio_branco.png);
     background-color: #7B01C8;
 }
