@@ -7,7 +7,7 @@
 }
 
 body {
-    background-image: url(/img/background_topo.jpg);
+    background-image: url(../img/background_topo.jpg);
     background-size: 100%;
     font-family: Poppins, sans-serif;
 }
@@ -42,30 +42,30 @@ header a:hover {
 }
 
 .navHome:link, .navHome:visited {
-    background-image: url(/img/home.png);
+    background-image: url(../img/home.png);
 }
 
 .navHome:hover {
     color: #0070CC;
-    background-image: url(/img/home_hover.png);
+    background-image: url(../img/home_hover.png);
 }
 
 .navJogos:link, .navJogos:visited {
-    background-image: url(/img/controle.png);
+    background-image: url(../img/controle.png);
 }
 
 .navJogos:hover {
     color: #EA3323;
-    background-image: url(/img/controle_hover.png);
+    background-image: url(../img/controle_hover.png);
 }
 
 .navLoja:link, .navLoja:visited {
-    background-image: url(/img/shop.png);
+    background-image: url(../img/shop.png);
 }
 
 .navLoja:hover {
     color: #E3B34C;
-    background-image: url(/img/shop_hover.png);
+    background-image: url(../img/shop_hover.png);
 }
 
 header img {
@@ -109,12 +109,12 @@ header img {
 }
 
 .xbox {
-    background-image: url(/img/xbox_preto.png);
+    background-image: url(../img/xbox_preto.png);
     background-size: 130px;
 }
 
 .xbox:hover {
-    background-image: url(/img/xbox_branco.png);
+    background-image: url(../img/xbox_branco.png);
     background-color: #077D07;
     color: white;
     transform: scale(105%);
@@ -122,12 +122,12 @@ header img {
 }
 
 .playstation {
-    background-image: url(/img/playstation_preto.png);
+    background-image: url(../img/playstation_preto.png);
     background-size: 150px;
 }
 
 .playstation:hover {
-    background-image: url(/img/playstation_branco.png);
+    background-image: url(../img/playstation_branco.png);
     background-color: #0071D2;
     color: white;
     transform: scale(105%);
@@ -197,7 +197,7 @@ header img {
 }
 
 .vr {
-    background-image: url(/img/playstation_vr2.png);
+    background-image: url(../img/playstation_vr2.png);
     background-size: 80%;
 }
 
@@ -208,7 +208,7 @@ header img {
 }
 
 .dualsense {
-    background-image: url(/img/playstation_dualsense.png);
+    background-image: url(../img/playstation_dualsense.png);
     background-size: 80%;
 }
 
@@ -219,7 +219,7 @@ header img {
 }
 
 .controleXbox {
-    background-image: url(/img/xbox_controle.jpg);
+    background-image: url(../img/xbox_controle.jpg);
     background-size: 60%;
 }
 
@@ -230,7 +230,7 @@ header img {
 }
 
 .pulse {
-    background-image: url(/img/playstation_headset.png);
+    background-image: url(../img/playstation_headset.png);
     background-size: 50%;
 }
 
@@ -241,7 +241,7 @@ header img {
 }
 
 .expansivel {
-    background-image: url(/img/xbox_cartao.jpg);
+    background-image: url(../img/xbox_cartao.jpg);
     background-size: 80%;
 }
 
@@ -252,7 +252,7 @@ header img {
 }
 
 footer {
-    background-image: url(/img/background_topo.jpg);
+    background-image: url(../img/background_topo.jpg);
     background-repeat: no-repeat;
     padding: 30px;
 }
@@ -393,32 +393,32 @@ footer > .container > div:hover {
 }
 
 .consoleLoja {
-    background-image: url(/img/computer_loja.png);
+    background-image: url(../img/computer_loja.png);
 }
 
 .consoleLoja:hover {
     color: white;
-    background-image: url(/img/computer_loja_branco.png);
+    background-image: url(../img/computer_loja_branco.png);
     background-color: #0070CC;
 }
 
 .jogoLoja {
-    background-image: url(/img/joystick_cinza.png);
+    background-image: url(../img/joystick_cinza.png);
 }
 
 .jogoLoja:hover {
     color: white;
-    background-image: url(/img/joystick_branco.png);
+    background-image: url(../img/joystick_branco.png);
     background-color: #B856D2;
 }
 
 .acessorioLoja {
-    background-image: url(/img/acessorio_cinza.png);
+    background-image: url(../img/acessorio_cinza.png);
 }
 
 .acessorioLoja:hover {
     color: white;
-    background-image: url(/img/acessorio_branco.png);
+    background-image: url(../img/acessorio_branco.png);
     background-color: #7B01C8;
 }
 
@@ -457,7 +457,7 @@ footer > .container > div:hover {
     padding-left: 40px;
     font-size: 17px;
     border-radius: 20px;
-    background-image: url(/img/shopping_cart_cinza.png);
+    background-image: url(../img/shopping_cart_cinza.png);
     background-repeat: no-repeat;
     background-size: 20%;
     background-position: 10px center;
@@ -467,7 +467,7 @@ footer > .container > div:hover {
 }
 
 .btnCarrinho:hover {
-    background-image: url(/img/shopping_cart_preto.png);
+    background-image: url(../img/shopping_cart_preto.png);
     color: black;
     transform: scale(106%);
     background-color: #F0F0F0;
