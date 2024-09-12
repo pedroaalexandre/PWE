@@ -383,6 +383,7 @@ footer > .container > div:hover {
 .introducaoLoja > nav > ul > li > a:link, a:visited{
     padding: 6px;
     padding-left: 50px;
+    color: #A9A9A9;
     text-decoration: none;
     font-size: 18px;
     font-weight: bold;
